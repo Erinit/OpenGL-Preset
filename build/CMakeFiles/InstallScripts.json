@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kael/OpenGLProject/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

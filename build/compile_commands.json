@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/kael/OpenGLProject/build",
+  "command": "/usr/sbin/g++  -I/home/kael/OpenGLProject/include -g -std=gnu++17 -o CMakeFiles/OpenGLRenderer.dir/src/main.cpp.o -c /home/kael/OpenGLProject/src/main.cpp",
+  "file": "/home/kael/OpenGLProject/src/main.cpp",
+  "output": "CMakeFiles/OpenGLRenderer.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/kael/OpenGLProject/build",
+  "command": "/usr/sbin/gcc  -I/home/kael/OpenGLProject/include -g -o CMakeFiles/OpenGLRenderer.dir/src/glad.c.o -c /home/kael/OpenGLProject/src/glad.c",
+  "file": "/home/kael/OpenGLProject/src/glad.c",
+  "output": "CMakeFiles/OpenGLRenderer.dir/src/glad.c.o"
+}
+]

@@ -1,0 +1,1 @@
+/usr/sbin/g++ -g -Wl,--dependency-file=CMakeFiles/OpenGLRenderer.dir/link.d CMakeFiles/OpenGLRenderer.dir/src/main.cpp.o CMakeFiles/OpenGLRenderer.dir/src/glad.c.o -o OpenGLRenderer  /usr/lib/libglfw.so.3.4 -lglm /usr/lib/libGLX.so /usr/lib/libOpenGL.so
