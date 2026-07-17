@@ -76,14 +76,4 @@ cmake --build .
 
 ### Project Structure
 
-OpenGLProject/
-├── CMakeLists.txt         # Build configuration
-├── README.md              # Project documentation
-├── include/               # Header files
-│   ├── KHR/
-│   │   └── khrplatform.h  # GLAD dependency
-│   └── glad/
-│       └── glad.h         # OpenGL function pointers
-└── src/
-    ├── glad.c             # GLAD implementation
-    └── main.cpp           # Main application loop and shaders
+![STRUCT](images/Screenshot%20From%202026-07-17%2023-26-34.png)
