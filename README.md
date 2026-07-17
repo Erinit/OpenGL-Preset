@@ -1,4 +1,4 @@
-# 🧊 OpenGL 3D Orbiting Cube
+# OpenGL 3D Orbiting Cube
 
 ![C++](https://img.shields.io/badge/C++-17-blue.svg?style=flat&logo=c%2B%2B)
 ![OpenGL](https://img.shields.io/badge/OpenGL-3.3%20Core-5586A4.svg?style=flat&logo=opengl)
@@ -6,19 +6,7 @@
 
 A minimalist, modern OpenGL 3.3 project built in C++ that renders a 3D cube with distinctly colored faces. The project features a fully interactive mouse-controlled orbit camera (arcball) and real-time projection toggling.
 
----
-
-## ✨ Features
-
-* **Modern OpenGL Pipeline:** Uses OpenGL 3.3 Core Profile with custom Vertex and Fragment shaders.
-* **Interactive Orbit Camera:** Click and drag the mouse to seamlessly orbit around the 3D object using spherical coordinates and trigonometry.
-* **Dynamic Projections:** Toggle between 3D Perspective and isometric Orthographic projections in real-time.
-* **Unrolled Geometry:** Demonstrates how to unroll shared vertices to assign unique RGB color attributes to individual faces.
-* **Modern CMake Build:** A clean, dependency-friendly `CMakeLists.txt` setup.
-
----
-
-## 🛠️ Prerequisites & Dependencies
+## Prerequisites & Dependencies
 
 To build this project, you need a **C++17 compiler**, **CMake**, and a few standard graphics libraries. 
 
@@ -49,6 +37,8 @@ sudo pacman -S base-devel cmake glfw-x11 glm
 Note: If you cloned this repository, the GLAD files are already included in the src/ and include/ directories.
 
 If you are setting this up from scratch, generate the loader files from the [GLAD Web Service](https://glad.dav1d.de/) (C/C++, OpenGL 3.3, Core Profile) and place them in your project structure:
+
+![I_AM_SO_TIRED](images/Screenshot%20From%202026-07-17%2023-31-14.png)
 
 * `glad.c` goes in `src/`
 
