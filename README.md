@@ -48,7 +48,7 @@ sudo pacman -S base-devel cmake glfw-x11 glm
 
 Note: If you cloned this repository, the GLAD files are already included in the src/ and include/ directories.
 
-If you are setting this up from scratch, generate the loader files from the GLAD Web Service (C/C++, OpenGL 3.3, Core Profile) and place them in your project structure:
+If you are setting this up from scratch, generate the loader files from the [GLAD Web Service](https://glad.dav1d.de/) (C/C++, OpenGL 3.3, Core Profile) and place them in your project structure:
 
 * `glad.c` goes in `src/`
 
