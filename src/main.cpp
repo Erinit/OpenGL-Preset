@@ -5,6 +5,8 @@
 #include <glm/gtc/type_ptr.hpp>
 #include <iostream>
 
+//ik its AI gen
+
 // Camera Settings lol
 float radius = 3.0f; 
 float yaw = 45.0f;
