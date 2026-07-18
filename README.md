@@ -4,7 +4,7 @@
 ![OpenGL](https://img.shields.io/badge/OpenGL-3.3%20Core-5586A4.svg?style=flat&logo=opengl)
 ![CMake](https://img.shields.io/badge/CMake-Build-success.svg?style=flat&logo=cmake)
 
-A minimalist, modern OpenGL 3.3 project built in C++ that renders a 3D cube with distinctly colored faces. The project features a fully interactive mouse-controlled orbit camera (arcball) and real-time projection toggling.
+A good preset i believe to set up the openGL specs in yo linux
 
 ## Prerequisites & Dependencies
 
@@ -34,9 +34,7 @@ sudo pacman -S base-devel cmake glfw-x11 glm
 
 ### 2. GLAD (Extension Loader)
 
-Note: If you cloned this repository, the GLAD files are already included in the src/ and include/ directories.
-
-If you are setting this up from scratch, generate the loader files from the [GLAD Web Service](https://glad.dav1d.de/) (C/C++, OpenGL 3.3, Core Profile) and place them in your project structure:
+If you are setting this up manually, generate the loader files from the [GLAD Web Service](https://glad.dav1d.de/) (C/C++, OpenGL 3.3, Core Profile) and place them in your project structure:
 
 ![I_AM_SO_TIRED](images/Screenshot%20From%202026-07-17%2023-31-14.png)
 
@@ -46,24 +44,29 @@ If you are setting this up from scratch, generate the loader files from the [GLA
 
 * `khrplatform.h` goes in `include/KHR/`
 
-### How to Build and Run
-
-This project uses an out-of-source CMake build to keep your directory clean. Run the following commands from the root of the project:
-```bash
-# 1. Create a build directory and navigate into it
-mkdir build
-cd build
-
-# 2. Configure the project with CMake
-cmake ..
-
-# 3. Compile the executable
-cmake --build .
-
-# 4. Run the application
-./OpenGLRenderer
-```
 
 ### Project Structure
 
 ![STRUCT](images/Screenshot%20From%202026-07-17%2023-26-34.png)
+
+
+### How to Build and Run
+
+Open the project in the 'CMakeLists.txt' hit 'build' make sure theres internet connection and once the build is succesfull hit this cmds
+```bash
+
+#in tha directory where the main.cpp is
+cd OpenGLProject/src
+
+#hit this to compile the main.cpp with other dependencies whatever
+g++ main.cpp glad.c -o my_first_window -I../include -lGL -lglfw
+
+#hit the executable
+./my_first_window
+
+```
+and i hope you are seeing a cube with multiple colored planes and is orbitable 
+now this is a good setup i believe i m thinking of expanding this into a little game
+with prebuilt physics libraries or might make a lil physics engine myself
+
+hope this helps
