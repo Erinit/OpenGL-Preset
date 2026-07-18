@@ -47,6 +47,22 @@ If you are setting this up manually, generate the loader files from the [GLAD We
 
 ### Project Structure
 
+hit these commands
+```bash
+
+#made the dir
+mkdir -p OpenGLProject/include/KHR OpenGLProject/include/glad OpenGLProject/src
+
+
+#setting up the files
+#note that i wrote code because i have VScode you can change the path of the code
+#varaible to any IDE of your linking i think
+code OpenGLProject/CMakeLists.txt OpenGLProject/include/KHR/khrplatform.h OpenGLProject/include/glad/glad.h OpenGLProject/src/glad.c OpenGLProject/src/main.cpp
+
+```
+press ctrl + o to open the directory alright?
+
+
 ![STRUCT](images/Screenshot%20From%202026-07-17%2023-26-34.png)
 
 
